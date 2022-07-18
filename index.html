@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="index.js"></script>
+<style>
+body {
+          background-image: url('sun-burst-1478549.jpg');
+         
+}
+        
+</style>
+</head>
+<body>
+
+<h1>Booking Details</h1>
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+  <input type="radio" id="o" name="fav_language" value="w">
+  <label for="o">One Way</label><br>
+  <input type="radio" id="c" name="fav_language" value="s">
+  <label for="c">Round Trip</label><br>
+  <label for="f">From:</label>
+  <input type="text" id="f" name="f" value="">
+  <label for="t">To:</label>
+  <input type="text" id="t" name="t" value=""><br><br>
+  <p>Departure</p><input elements of type="date">
+  <p>Return Date</p><input elements of type="date">
+
+  <h2>Passenger 1 Details</h2>
+  <label for="n1">Name:</label>
+  <input type="text" id="n1" name="n1" value="">
+  <input type="radio" id="m1" name="1" value="1.1">
+  <label for="m1">Male</label>
+  <input type="radio" id="f1" name="1" value="1.2">
+  <label for="f1">Female</label>
+  <label for="a1">    Age:</label>
+  <input type="text" id="a1" name="a1" value="">
+  
+  <h2>Passenger 2 Details</h2>
+
+  <label for="n2">Name:</label>
+  <input type="text" id="n2" name="n2" value="">
+  <input type="radio" id="m2" name="2" value="2.1">
+  <label for="m2">Male</label>
+  <input type="radio" id="f2" name="2" value="2.2">
+  <label for="f2">Female</label>
+  <label for="a2">    Age:</label>
+  <input type="text" id="a2" name="a2" value="">
+
+  <h2>Passenger 3 Details</h2>
+
+  <label for="n3">Name:</label>
+  <input type="text" id="n3" name="n3" value="">
+  <input type="radio" id="m3" name="3" value="3.1">
+  <label for="m3">Male</label>
+  <input type="radio" id="f3" name="3" value="3.2">
+  <label for="f3">Female</label>
+  <label for="a3">    Age:</label>
+  <input type="text" id="a3" name="a3" value="">
+  
+  <h2>Payment Details </h2>
+
+  <label for="fname">Full name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email" value=""><br>
+  <label for="a">Mobile:</label><br>
+  <input type="text" id="a" name="a" value=""><br>
+  <input type="submit" value="Submit"><br><br>
+</form> 
+
+<p></p>
+
+</body>
+</html>
